@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sweeper</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+
+    <h1>Dojo Sweeper</h1>
+    <div class="userinterface">
+        <h2 id="timer">timer</h2>
+        <div class="boxofboxes">
+            <p id="mines">💥</p>
+            <button class="checkwin" onclick="checkWin()"></button>
+        </div>
+    </div>
+    <div id="the-dojo"><button id="start" onclick="startGame()">S T A R T</button>
+    </div>
+    <button id="restart" onclick="restartGame()" style="display:none">🔄</button>
+    <script src="gamefin.js"></script>
+    <span>by iTheSailor</span>
+
+</body>
+</html>
